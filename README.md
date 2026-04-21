@@ -1,0 +1,2 @@
+# FABIP-Fairness-Aware-Bias-Impact-Pruning-for-Sustainable-and-Fair-Recidivism-Prediction
+FABIP (Fairness-Aware Bias Impact Pruning) is a neural network pruning framework that identifies and removes bias-inducing parameters using a Bias Impact Score (BIS). It improves fairness (DP, EO) while preserving accuracy and reducing computational cost via structured pruning, validated across COMPAS, Adult, and German datasets.
