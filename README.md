@@ -412,7 +412,6 @@ Standard unstructured pruning methods (including FairPrune) fail condition 3 bec
 
 ## References
 
-## References
 
 [1] J. Angwin, J. Larson, S. Mattu, and L. Kirchner, “Machine bias,” ProPublica, May 2016. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
 
