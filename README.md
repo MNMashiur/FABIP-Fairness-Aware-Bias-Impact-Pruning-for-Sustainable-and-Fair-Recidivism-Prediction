@@ -412,20 +412,95 @@ Standard unstructured pruning methods (including FairPrune) fail condition 3 bec
 
 ## References
 
-1. Kasyap, H., et al. (2024). Mitigating Bias: Model Pruning for Enhanced Model Fairness and Efficiency. *ECAI 2024*, pp. 995–1002.
-2. Wu, Y., et al. (2022). FairPrune: Achieving Fairness through Pruning for Dermatological Disease Diagnosis. *MICCAI 2022*, pp. 743–753.
-3. Zayed, A., et al. (2024). Fairness-aware Structured Pruning in Transformers. *AAAI 2024*, Vol. 38, No. 20, pp. 22484–22492.
-4. Zhang, L., et al. (2023). Towards Fairness-Aware Adversarial Network Pruning. *ICCV 2023*, pp. 5168–5177.
-5. Dai, Y., et al. (2023). Integrating Fairness and Model Pruning Through Bi-level Optimization. *arXiv:2312.10181*.
-6. Iofinova, E., et al. (2023). Bias in Pruned Vision Models: In-depth Analysis and Countermeasures. *CVPR 2023*, pp. 24364–24373.
-7. Qin, Q., & Merlo, E. (2026). Prune Bias from the Root. *Information and Software Technology*, 189, 107906.
-8. Kondapalli, P., et al. (2025). A Literature Review: Bias Detection and Mitigation in Criminal Justice. *Engineering Proceedings*, 107(1), 72.
-9. Pagano, T. P., et al. (2023). Bias and Unfairness in Machine Learning Models. *BDCC*, 7(1), 15.
-10. Chen, Z., et al. (2023). A Comprehensive Empirical Study of Bias Mitigation Methods. *ACM TOSEM*, 32(4), 1–30.
-11. Xue, Y., et al. (2024). BMFT: Achieving Fairness via Bias-based Weight Masking Fine-tuning. *MICCAI Workshop on Fairness of AI in Medical Imaging*, pp. 98–108.
-12. Jain, B., et al. (2019). Singular Race Models: Addressing Bias and Accuracy in Predicting Prisoner Recidivism. *PETRA 2019*, pp. 599–607.
-13. Shah, M., & Sureja, N. (2025). A Comprehensive Review of Bias in Deep Learning Models. *Archives of Computational Methods in Engineering*, 32(1), 255–267.
+## References
 
+[1] J. Angwin, J. Larson, S. Mattu, and L. Kirchner, “Machine bias,” ProPublica, May 2016. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+
+[2] K. Dastin, “Amazon scraps secret AI recruiting tool that showed bias against women,” Reuters, Oct. 2018. https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G
+
+[3] L. Thomas, J. Crook, and D. Edelman, *Credit Scoring and Its Applications*. SIAM, 2017.
+
+[4] Z. Obermeyer et al., “Dissecting racial bias in an algorithm used to manage the health of populations,” *Science*, 2019.
+
+[5] M. Hardt, E. Price, and N. Srebro, “Equality of opportunity in supervised learning,” *NeurIPS*, 2016.
+
+[6] F. Kamiran and T. Calders, “Data preprocessing techniques for classification without discrimination,” *KAIS*, 2012.
+
+[7] B. H. Zhang et al., “Mitigating unwanted biases with adversarial learning,” *AIES*, 2018.
+
+[8] G. Pleiss et al., “On fairness and calibration,” *NeurIPS*, 2017.
+
+[9] S. Han et al., “Learning both weights and connections for efficient neural networks,” *NeurIPS*, 2015.
+
+[10] Y. LeCun et al., “Optimal brain damage,” *NeurIPS*, 1989.
+
+[11] Y. Wu et al., “FairPrune,” *MICCAI*, 2022.
+
+[12] E. Iofinova et al., “Bias in pruned vision models,” *CVPR*, 2023.
+
+[13] N. Mehrabi et al., “A survey on bias and fairness in machine learning,” *ACM CSUR*, 2021.
+
+[14] A. Chouldechova, “Fair prediction with disparate impact,” *Big Data*, 2017.
+
+[15] S. Barocas, M. Hardt, and A. Narayanan, *Fairness and Machine Learning*, MIT Press, 2023.
+
+[16] J. Kleinberg et al., “Human decisions and machine predictions,” *QJE*, 2018.
+
+[17] J. Dressel and H. Farid, “The accuracy, fairness, and limits of predicting recidivism,” *Science Advances*, 2018.
+
+[18] B. Jain et al., “Singular race models,” *PETRA*, 2019.
+
+[19] P. Kondapalli et al., “Bias detection in criminal justice,” *Engineering Proceedings*, 2025.
+
+[20] M. Feldman et al., “Certifying and removing disparate impact,” *KDD*, 2015.
+
+[21] L. E. Celis et al., “Classification with fairness constraints,” *FAT*, 2019.
+
+[22] T. P. Pagano et al., “Bias and unfairness in ML models,” *BDCC*, 2023.
+
+[23] D. Li, “Pruning filters for efficient convnets,” arXiv, 2016.
+
+[24] P. Molchanov et al., “Pruning CNNs for efficient inference,” arXiv, 2016.
+
+[25] Y. He et al., “Soft filter pruning,” arXiv, 2018.
+
+[26] J. Frankle and M. Carbin, “Lottery Ticket Hypothesis,” arXiv, 2018.
+
+[27] A. Zayed et al., “Fairness-aware structured pruning,” *AAAI*, 2024.
+
+[28] L. Zhang et al., “Fairness-aware adversarial pruning,” *ICCV*, 2023.
+
+[29] Y. Dai et al., “Fairness and pruning via bi-level optimization,” arXiv, 2023.
+
+[30] H. Kasyap et al., “Mitigating bias via pruning,” *ECAI*, 2024.
+
+[31] Q. Qin and E. Merlo, “Prune bias from the root,” *IST*, 2026.
+
+[32] Y. Xue et al., “BMFT: Bias-based masking fine-tuning,” *MICCAI Workshop*, 2024.
+
+[33] D. Kingma and J. Ba, “Adam optimizer,” arXiv, 2014.
+
+[34] P. Koh and P. Liang, “Influence functions,” *ICML*, 2017.
+
+[35] R. Kohavi, “Scaling up Naive Bayes,” *KDD*, 1996.
+
+[36] H. Hofmann, “German Credit dataset,” UCI Repository, 1994.
+
+[37] S. Lundberg and S. Lee, “SHAP values,” *NeurIPS*, 2017.
+
+[38] T. Chen et al., “Contrastive learning framework,” *ICML*, 2020.
+
+[39] M. Shah and N. Sureja, “Bias in deep learning models,” *ACM Eng.*, 2025.
+
+[40] Z. Chen et al., “Bias mitigation methods study,” *TOSEM*, 2023.
+
+[41] T. Jui and P. Rivas, “Fairness issues in ML,” *IJMLC*, 2024.
+
+[42] R. Rabonato and L. Berton, “Fairness systematic review,” *AI Ethics*, 2025.
+
+[43] A. Paszke et al., “PyTorch,” *NeurIPS*, 2019.
+
+[44] F. Pedregosa et al., “Scikit-learn,” *JMLR*, 2011.
 ---
 
 *Department of Computer Science and Engineering, East West University — 2026*
